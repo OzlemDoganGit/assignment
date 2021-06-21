@@ -12,7 +12,7 @@
 * The microservice runs with **Java 1.8** and it was developed with spring boot project.
 * Google Chrome is used as a default browser.
 * For object-relational mapping **Spring Data JPA** is used.
-* **H2 in memory db** is used to persist the game data. 
+* **H2 in memory db** is used to persist the data. 
 * In each **restart** database will **drop and create**.
 * **Swagger** is used for **REST API** documentation  
 * **JUnit and Mockito** framework is used in writing and running your unit tests.
