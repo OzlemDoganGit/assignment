@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>KRY Assignment</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td style="display: inline"><span id="info"></span>
+		<tr>
+			<td>
+				<div>
+					<label for="service-name">Service Name :</label> <input
+						id="service-name" type="text">
+				</div>
+				<div>
+					<label for="url-name">Service URL:</label> <input id="url-name"
+						type="text">
+				</div> <input type="radio" name="status" id="fail">FAIL<br> <input
+				type="radio" name="status" id="ok">OK
+			</td>
+		</tr>
+		<tr>
+			<td style="display: inline-flex;">
+				<button class="btn btn-success" type="button" id="post-service">Save</button>
+				<button class="btn btn-primary" type="button" id="put-service">Update</button>
+				<button class="btn btn-danger" type="button" id="delete-service">Delete</button>
+			</td>
+		</tr>
+
+
+		<td style="display: inline">
+
+			<div id="service-list"></div>
+		</td>
+
+	</table>
+</body>
+
+<script src="/js/main.js"">
+	
+</script>
+</html>
+
+
